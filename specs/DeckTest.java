@@ -13,14 +13,9 @@ public class DeckTest {
   }
 
   @Test // 1 check deck size --------------
-  public void testGetDeckSize() 
-  {
-    assertEquals(52, deck.getDeckSize());
-  }
-
-  @Test // 2 check deck size --------------
   public void testMakeDeck() 
   {
+      deck.makeDeck();
       assertEquals(52, deck.getDeck().size());
   }
 

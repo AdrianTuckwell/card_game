@@ -1,5 +1,4 @@
 package cards;
-// for use when using array lists
 import java.util.*;
 
 public class Deck {
@@ -10,17 +9,10 @@ public class Deck {
   public Deck()
   {
     this.deck = new ArrayList<Card>();
-    makeDeck();
   } 
   //---------------------------------------
 
 
-  // count how many cards in the Deck -----
-  public int getDeckSize() 
-  {
-    return this.deck.size();
-  }
-  //---------------------------------------
 
   
   // Return the Deck ----------------------
@@ -29,6 +21,8 @@ public class Deck {
     return this.deck;
   }
   //---------------------------------------
+
+
 
   // make the deck from the Suit and Rank -----
   public void makeDeck()
@@ -43,17 +37,40 @@ public class Deck {
     }
   //---------------------------------------
 
+
   
-
-
-
-  public void shuffle(){
-
+  // ----------------------------------------
+  public void shuffle()
+  {
+    Collections.shuffle(deck);
   }
+  // ----------------------------------------
 
-  public void deal(){
+
+
+  // ----------------------------------------
+  public void dealCard()
+  {
+  
+    
+  }
+  // ----------------------------------------
+
+
+  public void cardsLeft(){
 
     
   }
+
+
+
+
+
+
+
+
+
+
+
 
 }
