@@ -2,22 +2,26 @@ import static org.junit.Assert.*;
 import org.junit.*;
 import cards.*;
 
-public class CardTest {
+public class CardTest 
+{
 
   Card card;
   
   @Before 
-  public void before(){
+  public void before()
+  {
     card = new Card(RankType.ACE, SuitType.SPADES);
   }
 
   @Test // 1 check the card type --------------
-  public void testCanGetRank(){
+  public void testCanGetRank()
+  {
     assertEquals(RankType.ACE, card.getRank());
   }
 
   @Test // 2 check the card suit --------------
-  public void testCanGetSuit(){
+  public void testCanGetSuit()
+  {
     assertEquals(SuitType.SPADES, card.getSuit());
   }
 
