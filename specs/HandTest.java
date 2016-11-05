@@ -38,4 +38,14 @@ public class HandTest {
     assertEquals(2, hand.getSize());   
   }
 
+  @Test // 2 add 1 card to hand  ---------------
+  public void testRemoveCard()
+  {
+    hand.addCard(card1);
+    hand.addCard(card2);
+    hand.removeCard(card1);
+    assertEquals(1, hand.getSize());   
+  }
+
+
 }
