@@ -12,8 +12,6 @@ public class Deck {
   } 
   //---------------------------------------
 
-
-
   
   // Return the Deck ----------------------
   public ArrayList<Card> getDeck()
@@ -59,7 +57,7 @@ public class Deck {
 
   public void cardsLeft(){
 
-    
+
   }
 
 

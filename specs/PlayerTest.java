@@ -4,18 +4,28 @@ import cards.*;
 
 public class PlayerTest {
 
-  Player player;
+  Player player1;
+  Player player2;
 
   @Before
   public void before()
   {
-     player = new Player("Ross");
+     player1 = new Player("Ross");
+     player2 = new Player("Bobby");
   }
 
   @Test
-  public void hasName()
+  public void hasNamePlayer1()
   {
-    assertEquals("Ross", player.getName());
+    assertEquals("Ross", player1.getName());
   }
+
+  @Test
+  public void hasNamePlayer2()
+  {
+    assertEquals("Bobby", player2.getName());
+  }
+
+
 
 }

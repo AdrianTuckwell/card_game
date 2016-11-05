@@ -5,24 +5,40 @@ public class Hand {
 
     private ArrayList<Card> hand;
 
-    // Deck constructor ---------------------
+    // Hand constructor ---------------------
     public Hand()
     {
       this.hand = new ArrayList<Card>();
     } 
     //---------------------------------------
 
+    // Return the Hand ----------------------
+    public ArrayList<Card> getHand()
+    {
+      return this.hand;
+    }
+    //---------------------------------------
 
-  public void addCard() {
+    // Return the Hand size -------------------
+    public int getSize()
+    {
+        return hand.size();   
+    }
 
 
-  }
+    // Add Card to hand ---------------------
+    public void addCard(Card card)
+    {
+      hand.add(card);
+    }
+    // ---------------------------------------
 
-  public void removeCard() {
 
 
 
-  }
+    public void removeCard() {
+
+    }
 
 
 
