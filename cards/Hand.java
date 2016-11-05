@@ -35,7 +35,24 @@ public class Hand {
       hand.remove(card);
     }
 
+    // check card by index ---------------------
+    public Card checkCard(int index)
+    {
+        return hand.get(index);
+    }
 
+    // Get total value of hand -------------------
+    public int getTotal()
+    {
+        // create total to keep all cards value
+        int total = 0;
+        // total = 0;
+        for( Card card: this.hand)
+        {
+          total += card.getValue();
+        }
+        return total;   
+    }
 
 
 }

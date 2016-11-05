@@ -10,7 +10,6 @@ public class Deck {
   {
     this.deck = new ArrayList<Card>();
   } 
-  //---------------------------------------
 
   
   // Return the Deck ----------------------
@@ -18,7 +17,6 @@ public class Deck {
   {
     return this.deck;
   }
-  //---------------------------------------
 
 
 
@@ -33,7 +31,6 @@ public class Deck {
         }
       }
     }
-  //---------------------------------------
 
 
   
@@ -42,7 +39,6 @@ public class Deck {
   {
     Collections.shuffle(deck);
   }
-  // ----------------------------------------
 
 
 
@@ -52,10 +48,10 @@ public class Deck {
   
     
   }
-  // ----------------------------------------
 
 
-  public void cardsLeft(){
+  public void cardsLeft()
+  {
 
 
   }
