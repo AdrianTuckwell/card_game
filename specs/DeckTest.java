@@ -30,6 +30,15 @@ public class DeckTest {
     assertEquals(51, deck.getDeck().size());
   }
 
+  @Test // 2 check cards left in deck --------------
+  public void testCardsLeft() 
+  {
+    // make a deck and deal 2 cards so only 50 remain
+    deck.makeDeck();
+    deck.dealCard();
+    deck.dealCard();
+    assertEquals(50, deck.cardsLeft());
+  }
   
 
 

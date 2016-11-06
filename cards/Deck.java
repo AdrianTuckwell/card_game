@@ -38,18 +38,18 @@ public class Deck {
 
 
   // ----------------------------------------
-  public void dealCard()
+  public Card dealCard()
   {
-  
+    // take the first card from the pack and remove
+    Card card = deck.get(0);
     deck.remove(0);
-    // return deck.get(0);
+    return card;
   }
 
   // ----------------------------------------
-  public void cardsLeft()
+  public int cardsLeft()
   {
-
-
+    return this.deck.size();
   }
 
 

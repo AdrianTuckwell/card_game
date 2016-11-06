@@ -46,7 +46,7 @@ public class Hand {
     {
         // create total to keep all cards value
         int total = 0;
-        // total = 0;
+  
         for( Card card: this.hand)
         {
           total += card.getValue();
