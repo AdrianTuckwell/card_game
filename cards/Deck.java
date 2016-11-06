@@ -18,8 +18,6 @@ public class Deck {
     return this.deck;
   }
 
-
-
   // make the deck from the Suit and Rank -----
   public void makeDeck()
   {   
@@ -31,8 +29,6 @@ public class Deck {
         }
       }
     }
-
-
   
   // ----------------------------------------
   public void shuffle()
@@ -41,15 +37,15 @@ public class Deck {
   }
 
 
-
   // ----------------------------------------
   public void dealCard()
   {
   
-    
+    deck.remove(0);
+    // return deck.get(0);
   }
 
-
+  // ----------------------------------------
   public void cardsLeft()
   {
 

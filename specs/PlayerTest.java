@@ -11,7 +11,7 @@ public class PlayerTest {
   public void before()
   {
      player1 = new Player("Ross");
-     player2 = new Player("Bobby");
+     player2 = new Player("Dealer");
   }
 
   @Test
@@ -23,7 +23,7 @@ public class PlayerTest {
   @Test
   public void hasNamePlayer2()
   {
-    assertEquals("Bobby", player2.getName());
+    assertEquals("Dealer", player2.getName());
   }
 
 

@@ -22,16 +22,14 @@ public class DeckTest {
       assertEquals(52, deck.getDeck().size());
   }
 
+  @Test // 2 check deal card --------------
+  public void testDealCard() 
+  {
+    deck.makeDeck();
+    deck.dealCard();
+    assertEquals(51, deck.getDeck().size());
+  }
 
-  // @Test // 2 get card --------------
-  // public void testGetCard() 
-  // {
-  //     deck.makeDeck();
-  //     // Card card = (Card)deck.getCard(0);
-  //     // assertEquals(RankType.ACE, card.getRank());
-  //     // assertEquals(SuitType.CLUBS, card.getSuit());
-      
-  // }
   
 
 
