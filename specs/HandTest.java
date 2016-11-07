@@ -9,8 +9,6 @@ public class HandTest {
   Card card2;
   Card card3;
 
-
-  
   @Before 
   public void before()
   {
